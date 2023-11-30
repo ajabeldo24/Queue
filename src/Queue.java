@@ -1,3 +1,8 @@
+//Stack
+//Author: Ahmed Jabeldo
+//Date: 11/29/23
+//Collaborators: Luke O'Drobinak
+
 public class Queue <T> {
     private int size = 0;
     private QueueNode<T> top;
@@ -37,7 +42,6 @@ public class Queue <T> {
             return null; //if it's empty, return null
         }
     }
-
 
     public boolean isEmpty () {
         return size == 0; //if it's empty, it'll return true, if not, it'll return false
